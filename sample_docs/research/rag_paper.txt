@@ -1,0 +1,12 @@
+Retrieval Augmented Generation for Knowledge Intensive NLP Tasks
+Authors: Lewis, Perez, Piktus, Petroni, Karpukhin et al
+Institution: Facebook AI Research, 2020
+RAG combines parametric memory (LLM weights) with non-parametric memory (retrieved documents)
+Two main components: Dense Passage Retriever and BART sequence-to-sequence generator
+Retriever uses bi-encoder to encode queries and documents into dense vector space
+Top-k documents retrieved via maximum inner product search
+Generator conditions on retrieved documents plus query to produce answer
+Outperforms pure parametric models by 4.3 BLEU points on open domain QA
+Allows model knowledge to be updated without retraining
+Hallucination reduced because answers are grounded in retrieved text
+Foundation for modern enterprise AI systems using ChromaDB, Pinecone, Weaviate

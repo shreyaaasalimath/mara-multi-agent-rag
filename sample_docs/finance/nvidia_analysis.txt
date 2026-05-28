@@ -1,0 +1,11 @@
+NVIDIA FY2025 Financial Analysis
+Revenue: $130.5 billion, up 114% year over year driven by AI chip demand
+Data Center segment: $115.2 billion, representing 88% of total revenue
+Gaming segment: $11.4 billion, up 9% year over year
+Gross margin: 74.6%, exceptional for a semiconductor company
+Net income: $72.9 billion, up 145% year over year
+H100 and H200 GPU chips dominate AI training workloads globally
+Blackwell architecture chips began shipping in Q4 2024
+CEO Jensen Huang: "The age of AI is in full steam"
+R&D spending: $8.7 billion, up 35% year over year
+Market capitalization exceeded $3 trillion briefly in 2024

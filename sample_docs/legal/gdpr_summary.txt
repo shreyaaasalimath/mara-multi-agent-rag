@@ -1,0 +1,12 @@
+GDPR General Data Protection Regulation Complete Reference
+Effective Date: May 25, 2018
+Jurisdiction: Applies to all organizations processing EU citizens data regardless of location
+Six Lawful Bases: Consent, Contract, Legal obligation, Vital interests, Public task, Legitimate interests
+Consent Requirements: Must be freely given, specific, informed, and unambiguous
+Data Subject Rights: Access, Rectification, Erasure, Portability, Objection
+Data Breach Notification: Must notify supervisory authority within 72 hours
+Data Protection Officer: Mandatory for large-scale systematic monitoring or sensitive data
+Tier 1 Penalties: Up to 10 million euros or 2% of global annual turnover
+Tier 2 Penalties: Up to 20 million euros or 4% of global annual turnover
+Privacy by Design: Data protection must be built into systems from the outset
+Cross-Border Transfers: Require adequacy decision or standard contractual clauses

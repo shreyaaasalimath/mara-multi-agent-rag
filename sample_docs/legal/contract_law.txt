@@ -1,0 +1,13 @@
+Contract Law Fundamentals Legal Reference
+Formation Requirements: Offer, Acceptance, Consideration, Capacity, and Legality
+Offer: Definite proposal communicated to offeree with intent to be bound
+Acceptance: Unconditional agreement to all material terms; counter-offer terminates original offer
+Consideration: Something of legal value exchanged by both parties; past consideration invalid
+Statute of Frauds: Contracts over one year, real estate, goods over $500 must be in writing
+Breach of Contract: Material breach allows non-breaching party to treat contract as terminated
+Damages: Compensatory, Consequential, Punitive (rare), Nominal
+Specific Performance: Equitable remedy requiring breaching party to perform
+Force Majeure: Clause excusing performance due to extraordinary events beyond party control
+Liquidated Damages: Pre-agreed damage amount for breach; enforceable if reasonable
+Indemnification: One party agrees to hold other harmless from specified losses
+Limitation of Liability: Caps damages recoverable; enforceable except for gross negligence

@@ -1,0 +1,13 @@
+Attention Is All You Need - Research Summary
+Authors: Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser, Polosukhin
+Institution: Google Brain and Google Research, 2017
+The Transformer architecture relies entirely on attention mechanisms
+Eliminates recurrent neural networks and convolutions entirely
+Multi-head attention allows model to jointly attend to information from different subspaces
+Encoder: stack of 6 identical layers each with multi-head attention and feed-forward sublayers
+Decoder: stack of 6 identical layers with additional cross-attention over encoder output
+Positional encoding added to input embeddings to retain sequence order
+Base model: 65M parameters, Big model: 213M parameters
+Training time: 3.5 days on 8 NVIDIA P100 GPUs
+BLEU score: 28.4 on English-German translation
+This paper became the foundation for BERT, GPT, and all modern large language models

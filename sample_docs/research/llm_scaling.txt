@@ -1,0 +1,11 @@
+Scaling Laws for Neural Language Models
+Authors: Kaplan, McCandlish, Henighan, Brown et al
+Institution: OpenAI, 2020
+Performance of language models follows smooth power laws with model size, dataset size, and compute
+Larger models are significantly more sample efficient than smaller models
+Optimal compute allocation: equal scaling of model size and training tokens
+Model size, dataset size, and compute budget are the three key scaling variables
+Doubling model size while halving training steps often outperforms smaller model trained longer
+Architectural details like depth vs width matter less than total parameter count
+These findings influenced GPT-3 (175B), PaLM (540B), and Chinchilla scaling decisions
+Chinchilla paper refined these laws: optimal token-to-parameter ratio of 20:1
