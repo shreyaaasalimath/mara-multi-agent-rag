@@ -52,8 +52,3 @@ streamlit run dashboard/app.py
 ```
 
 ## Architecture
-## Resume bullet points
-
-- Architected a multi-agent RAG system with an orchestrator that dynamically routes queries to specialist Finance, Research, and Legal agents
-- Implemented agent memory, confidence scoring, query decomposition, and LLM-as-judge evaluation
-- Built interactive Streamlit dashboard with multi-turn chat, conversation history, analytics, and audit log
