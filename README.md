@@ -52,3 +52,14 @@ streamlit run dashboard/app.py
 ```
 
 ## Architecture
+User Query
+↓
+Orchestrator (routes query)
+↓
+Finance Agent | Research Agent | Legal Agent
+↓               ↓               ↓
+Claude LLM      Claude LLM      Claude LLM
+↓               ↓               ↓
+Synthesizer (merges answers)
+↓
+Final Answer
