@@ -1,6 +1,7 @@
+cat > /Users/shreyasalimath/Desktop/multi-agent-rag/README.md << 'ENDOFFILE'
 # MARA — Multi-Agent RAG System
 
-A production-grade multi-agent AI system where three specialist agents (Finance, Research, Legal) collaborate to answer complex questions using retrieval-augmented generation.
+A production-grade multi-agent AI system where three specialist agents (Finance, Research, Legal) collaborate to answer complex questions.
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Anthropic](https://img.shields.io/badge/Anthropic-Claude-orange)
@@ -13,8 +14,8 @@ A production-grade multi-agent AI system where three specialist agents (Finance,
 - **Research agent** answers questions about AI, science, technology, papers
 - **Legal agent** answers questions about contracts, GDPR, employment law, IP
 - **Synthesizer** merges all agent answers into one final response
-- **Memory** — agents remember context across turns in a conversation
-- **Confidence scoring** — every answer rated 0-100% by the agent
+- **Memory** — agents remember context across turns
+- **Confidence scoring** — every answer rated 0-100%
 - **Full audit trail** — every query logged with latency, tokens, confidence
 - **Chat interface** — multiple conversations, recent chat history, new chat
 
@@ -29,37 +30,33 @@ A production-grade multi-agent AI system where three specialist agents (Finance,
 
 ## Setup
 
-```bash
-# Clone the repo
-git clone https://github.com/YOUR_USERNAME/mara-multi-agent-rag.git
-cd mara-multi-agent-rag
+Clone the repo and install dependencies:
 
-# Create virtual environment
-python3.11 -m venv venv
-source venv/bin/activate
+    git clone https://github.com/shreyaaasalimath/mara-multi-agent-rag.git
+    cd mara-multi-agent-rag
+    python3.11 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
 
-# Install dependencies
-pip install -r requirements.txt
+Add your API key:
 
-# Add your API key
-echo "ANTHROPIC_API_KEY=your_key_here" > .env
+    echo "ANTHROPIC_API_KEY=your_key_here" > .env
 
-# Ingest knowledge base (optional - system works without it)
-python ingest.py
+Launch the dashboard:
 
-# Launch dashboard
-streamlit run dashboard/app.py
-```
+    streamlit run dashboard/app.py
 
 ## Architecture
-User Query
-↓
-Orchestrator (routes query)
-↓
-Finance Agent | Research Agent | Legal Agent
-↓               ↓               ↓
-Claude LLM      Claude LLM      Claude LLM
-↓               ↓               ↓
-Synthesizer (merges answers)
-↓
-Final Answer
+
+    User Query
+        ↓
+    Orchestrator (routes query)
+        ↓
+    Finance Agent   Research Agent   Legal Agent
+        ↓                ↓               ↓
+    Claude LLM      Claude LLM      Claude LLM
+        ↓                ↓               ↓
+    Synthesizer (merges answers)
+        ↓
+    Final Answer
+
